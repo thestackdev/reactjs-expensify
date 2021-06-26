@@ -1,0 +1,50 @@
+.modal {
+  height: auto;
+  width: 34rem;
+  padding: 1rem;
+  background-color: #fff;
+}
+
+.modal h1 {
+  padding: 2rem 0rem;
+  color: #4f61ff;
+  text-align: center;
+}
+.modal label {
+  color: #696969;
+}
+.modal .modal-input {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 1rem;
+  width: 100%;
+}
+.modal .container {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+  font-size: 1.2rem;
+  width: 80%;
+}
+.modal .input {
+  border: 1px solid #bdbdbd;
+  outline: none;
+  border-radius: 5px;
+  padding: 0.5rem;
+  width: 100%;
+  color: #696969;
+  font-size: 1.4rem;
+}
+.modal .submit {
+  margin: 2rem 0px;
+  width: 50%;
+  background-color: #4f61ff;
+  padding: 0.7rem;
+  border: none;
+  border-radius: 5px;
+  color: #fff;
+  cursor: pointer;
+  font-size: 1.2rem;
+}

@@ -1,0 +1,38 @@
+.dashboard-header-container {
+  display: flex;
+  justify-content: space-between;
+  flex-direction: row;
+  align-items: center;
+}
+
+.dashboard-header-container :first-child {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+}
+
+.dashboard-header-search {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  gap: 1rem;
+  background-color: #f1f1f1;
+  border-radius: 0.7rem;
+  padding: 1rem;
+}
+
+.search {
+  border: none;
+  outline: none;
+  color: #1d1d1d;
+  background-color: transparent;
+  font-size: 1.2rem;
+  letter-spacing: 1px;
+}
+
+.dashboard-header-right {
+  display: flex;
+  gap: 1rem;
+  align-items: center;
+}

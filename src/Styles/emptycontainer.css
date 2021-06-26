@@ -1,0 +1,25 @@
+.empty-container {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  height: 100%;
+  text-align: center;
+  gap: 2rem;
+}
+
+.empty-container div {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+  gap: 1rem;
+}
+
+.empty-container h1 {
+  color: #1d1d1d;
+}
+
+.empty-container h3 {
+  color: #696969;
+}

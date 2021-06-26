@@ -1,0 +1,39 @@
+.modal-backdrop {
+  position: fixed;
+  display: flex;
+  height: 100vh;
+  width: 100vw;
+  align-items: center;
+  justify-content: center;
+  background-color: #0000001a;
+  inset: 0 0 0 0;
+  scale: 0;
+  opacity: 0;
+}
+
+.modal-backdrop-active {
+  animation: popup 300ms;
+  animation-fill-mode: forwards;
+}
+
+@keyframes popup {
+  0% {
+    scale: 1;
+    opacity: 0;
+  }
+  100% {
+    scale: 1;
+    opacity: 1;
+  }
+}
+
+.modal-container {
+  position: relative;
+}
+
+.modal-container img {
+  position: absolute;
+  top: 18px;
+  right: 18px;
+  cursor: pointer;
+}

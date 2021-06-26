@@ -1,0 +1,32 @@
+.dashboard-body-header {
+  display: grid;
+  gap: 0.7rem;
+}
+
+.dashboard-body-header-none {
+  display: none;
+}
+
+.dashboard-card-container {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
+  padding: 2rem 0px;
+  column-gap: 1rem;
+}
+
+.dashboard-card {
+  display: grid;
+  grid-template-columns: 1fr 2fr;
+  align-items: flex-end;
+  padding: 1rem;
+  border-radius: 5px;
+  gap: 0.3rem;
+  border: 0.5px solid #bdbdbd;
+}
+
+.dashboard-card h3 {
+  padding-bottom: 0.7rem;
+}
+.dashboard-card h1 {
+  font-size: 2rem;
+}

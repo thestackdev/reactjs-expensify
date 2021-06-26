@@ -1,0 +1,48 @@
+.transaction-header {
+  display: flex;
+  justify-content: space-between;
+  flex-direction: row;
+  padding: 0rem 0px 2rem 0rem;
+}
+
+.transaction-buttons {
+  display: flex;
+  flex-direction: row;
+  gap: 2rem;
+}
+
+.transaction-button {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 0.5rem;
+  background-color: #f1f1f1;
+  border-radius: 9px;
+  padding: 0.3rem 0.7rem;
+  cursor: pointer;
+}
+
+.csv-downlaod {
+  text-decoration: none;
+  color: #1d1d1d;
+}
+
+.transaction-filter-container-1 {
+  width: 6rem;
+}
+
+.transaction-filter-container-2 {
+  width: 5rem;
+}
+
+.transaction-filter-container-3 {
+  width: 7rem;
+}
+
+.transaction-filter-dropdown {
+  border: none;
+  background-color: transparent;
+  padding: 0.4rem;
+  width: 100%;
+  color: #696969;
+}

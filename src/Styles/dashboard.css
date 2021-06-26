@@ -1,0 +1,11 @@
+.dashboard {
+  display: grid;
+  height: 100vh;
+  padding: 1rem;
+  grid-template-rows: 1fr 2fr 1fr 8fr;
+  border-right: 2px solid #e0e0e0;
+}
+
+.dashboard-search {
+  grid-template-rows: 1fr 1fr 10fr;
+}

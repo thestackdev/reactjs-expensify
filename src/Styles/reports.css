@@ -1,0 +1,41 @@
+.reports {
+  display: flex;
+  justify-content: flex-start;
+  flex-direction: column;
+  height: 100vh;
+  padding: 2rem;
+}
+
+.pie-chart {
+  height: 50vh;
+}
+
+.block {
+  height: 18px;
+  width: 18px;
+  border-radius: 3px;
+}
+
+.block.Income {
+  background-color: #4f61ff;
+}
+
+.block.Expense {
+  background-color: #c652ff;
+}
+
+.block.Balance {
+  background-color: #84b497;
+}
+
+.block.Due {
+  background-color: #f16464;
+}
+
+.list {
+  display: grid;
+  width: 100%;
+  grid-template-columns: 1fr 5fr 5fr;
+  align-items: center;
+  padding: 1rem 0px;
+}

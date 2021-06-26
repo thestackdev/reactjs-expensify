@@ -1,0 +1,5 @@
+.app {
+  display: grid;
+  grid-template-columns: 5fr 1.8fr;
+  background-color: #fff;
+}

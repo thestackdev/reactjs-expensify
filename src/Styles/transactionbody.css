@@ -1,0 +1,85 @@
+.transaction-body {
+  display: grid;
+  grid-template-rows: 3rem 1fr;
+  overflow: scroll;
+  overflow-x: hidden;
+  scrollbar-color: #f1f1f1 #fff;
+}
+.transaction-body-title {
+  display: grid;
+  padding: 1rem;
+  grid-template-columns: 1fr 3fr 3fr 3fr 2fr 2fr;
+  position: sticky;
+  top: 0px;
+  background-color: #fff;
+}
+.transaction-history {
+  display: grid;
+  padding: 1rem;
+  grid-template-columns: 1fr 3fr 3fr 3fr 2fr 2fr;
+  font-size: 0.9rem;
+  color: #696969;
+}
+.transaction-history:hover {
+  background-color: #f1f1f1;
+}
+.Income {
+  color: #4f61ff;
+  font-size: 1rem;
+}
+.Expense {
+  color: #c652ff;
+  font-size: 1rem;
+}
+.Balance {
+  color: #84b497;
+  font-size: 1rem;
+}
+.Due {
+  color: #f16464;
+  font-size: 1rem;
+}
+.gg-menu-left {
+  transition: 0.3s ease-in-out;
+}
+.dropdown {
+  display: flex;
+  align-items: flex-start;
+  position: relative;
+}
+.dropdown-content {
+  visibility: hidden;
+  opacity: 0;
+  position: absolute;
+  display: flex;
+  align-items: flex-start;
+  flex-direction: column;
+  transition: 0.3s ease-in-out;
+  min-width: 160px;
+  box-shadow: 5px 5px 3px 3px #0000004d;
+  background-color: #f1f1f1;
+  transform: translate(1%, 30%);
+  border-radius: 5px;
+  cursor: pointer;
+  z-index: 999;
+}
+.dropdown-content hr {
+  opacity: 0.3;
+  width: 90%;
+  margin: 0px auto;
+}
+.dropdown:hover .dropdown-content {
+  visibility: visible;
+  opacity: 1;
+}
+.dropdown:hover .gg-menu-left {
+  transform: translateX(-120%);
+}
+.dropdown-item {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  width: 100%;
+  gap: 1rem;
+  padding: 0.7rem;
+}
