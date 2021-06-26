@@ -3,7 +3,6 @@ import balanceImg from 'Images/balance.png'
 import expenseImg from 'Images/expense.png'
 import incomeImg from 'Images/income.png'
 import dueImg from 'Images/due.png'
-import { LOCALSTORAGEKEY } from 'Redux/Constants'
 
 let initialState = {
   overview: [
@@ -48,7 +47,7 @@ let initialState = {
   darkTheme: false,
 }
 
-const loaclData = localStorage.getItem(LOCALSTORAGEKEY)
+const loaclData = localStorage.getItem('LOCALSTORAGEKEY')
 if (loaclData) initialState = JSON.parse(loaclData)
 
 if (initialState.darkTheme) document.body.classList.toggle('dark')
