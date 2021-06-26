@@ -12,7 +12,8 @@
     "react-dropdown": "^1.9.2",
     "react-minimal-pie-chart": "^8.2.0",
     "react-redux": "^7.2.4",
-    "react-scripts": "^4.0.3"
+    "react-scripts": "^4.0.3",
+    "web-vitals": "^2.0.1"
   },
   "scripts": {
     "start": "react-scripts start",
